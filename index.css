@@ -1,0 +1,81 @@
+:root{
+    --white: #f5f3f4;
+    --blue : #161a1d;
+    --black : #0b090a;
+    --red : #a4161a;
+    --grey : #b1a7a6;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--black);
+    height: 100vh;
+    overflow: hidden;
+}
+
+section{
+    width: 80vw;
+    min-height: 80vh;
+    margin: 75px auto;
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+    background: var(--grey)
+}
+
+.main{
+    display: grid;
+    align-items: center;
+}
+
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.Nav>a{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.links{
+    padding: 25px;
+    text-align: left;
+}
+
+.links>p{
+    font-size: 20px;
+    padding: 25px;
+}
+
+.links>p>a{
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.toefl-class-links{
+    padding: 15px;
+}
+
+.toefl-class-links>p{
+    padding: 15px;
+}
+
+
+.audio{
+    min-height: 70vh;
+    display: grid;
+    align-items: center;
+}
+
+audio{
+    padding: 50px;
+}
