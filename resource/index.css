@@ -1,8 +1,6 @@
 :root{
     --white: #f5f3f4;
-    --blue : #161a1d;
     --black : #0b090a;
-    --red : #a4161a;
     --grey : #b1a7a6;
 }
 
@@ -10,7 +8,7 @@
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
-    scroll-padding: 75px;
+    scroll-padding: 8vh;
 }
 
 body{
@@ -22,11 +20,15 @@ body{
 section{
     width: 80vw;
     min-height: 80vh;
-    margin: 75px auto;
-    padding: 25px;
+    margin: 5vh auto;
+    padding: 2vh 2vw;
     border-radius: 25px;
     text-align: center;
     background: var(--grey)
+}
+
+h1{
+    color: var(--black)
 }
 
 .main{
@@ -38,13 +40,13 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px;
+    padding: 2vh 2vw;
 }
 
 .Nav>a{
     padding: 10px;
     text-decoration: none;
-    color: var(--blue);
+    color: var(--black);
 }
 
 .links{
@@ -59,7 +61,7 @@ section{
 
 .links>p>a{
     text-decoration: none;
-    color: var(--blue);
+    color: var(--black);
 }
 
 .toefl-class-links{
@@ -70,7 +72,6 @@ section{
     padding: 15px;
 }
 
-
 .audio{
     min-height: 70vh;
     display: grid;
@@ -78,5 +79,28 @@ section{
 }
 
 audio{
-    padding: 50px;
+    padding: 5vh 5vw;
+}
+
+@media only screen and (max-width: 700px) {
+    *{
+        scroll-padding: 5vh;
+    }
+    
+    section{
+        width: 75vw;
+        min-height: 75vh;
+    }
+
+    .Nav{
+        flex-wrap: wrap;   
+    }
+
+    .audio{
+        min-height: 60vh;
+    }
+
+    audio{
+        padding: 5vh 0px;
+    }
 }
