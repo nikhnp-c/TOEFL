@@ -1,5 +1,6 @@
+
 :root{
-    --white: #f5f3f4;
+    --white: #EAF2EF;
     --black : #0b090a;
     --grey : #b1a7a6;
 }
@@ -13,18 +14,24 @@
 
 body{
     background: var(--black);
-    height: 100vh;
+    height: 99vh;
     overflow: hidden;
 }
 
 section{
     width: 80vw;
-    min-height: 80vh;
+    min-height: 75vh;
     margin: 5vh auto;
     padding: 2vh 2vw;
     border-radius: 25px;
     text-align: center;
     background: var(--grey)
+}
+
+.index{
+    height: 80vh;
+    padding: 5vh 2vw;
+    margin: 5vh auto;
 }
 
 h1{
