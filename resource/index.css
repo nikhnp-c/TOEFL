@@ -2,7 +2,6 @@
 :root{
     --white: #EAF2EF;
     --black : #0b090a;
-    --grey : #b1a7a6;
 }
 
 *{
@@ -25,7 +24,7 @@ section{
     padding: 2vh 2vw;
     border-radius: 25px;
     text-align: center;
-    background: var(--grey)
+    background: var(--white)
 }
 
 .index{
