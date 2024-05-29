@@ -2,6 +2,8 @@
 :root{
     --white: #EAF2EF;
     --black : #0b090a;
+    --teal : #00A9A5;
+    --red : #E35D6A;
 }
 
 *{
@@ -34,7 +36,7 @@ section{
 }
 
 h1{
-    color: var(--black)
+    color: var(--teal)
 }
 
 .main{
@@ -47,12 +49,15 @@ h1{
     align-items: center;
     justify-content: center;
     padding: 2vh 2vw;
+    background: var(--red);
+    
+    border-radius: 20px;
 }
 
 .Nav>a{
     padding: 10px;
     text-decoration: none;
-    color: var(--black);
+    color: var(--white);
 }
 
 .links{
@@ -85,7 +90,10 @@ h1{
 }
 
 audio{
-    padding: 5vh 5vw;
+    background: var(--black);
+    margin: 3vh 3vw;
+    padding: 2vh 2vw;
+    border-radius: 50px;
 }
 
 @media only screen and (max-width: 700px) {
