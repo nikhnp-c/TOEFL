@@ -86,7 +86,7 @@ section{
     text-align: center;
 }
 
-.links>p>a{
+.links>a,.links>p>a{
     text-decoration: none;
     color: var(--white);
 }
@@ -127,6 +127,11 @@ audio {
     }
   }
   
+.audio-track{
+    display: grid;
+    align-content: center;
+}
+
 .content{
     text-align: left;
     min-height: 25vh;
@@ -148,6 +153,14 @@ audio {
 
 .spacer{
     min-height: 1vh;
+}
+
+.question-list{
+    border-bottom: solid var(--red) 2px;
+}
+
+iframe{
+    border-radius: 25px;
 }
 
 @media only screen and (max-width: 750px) {
