@@ -172,7 +172,6 @@ iframe{
 }
 
 .listening-integrated>.audio>.audio-track{
-
     display: grid;
     align-items: center;
     justify-content: center;
