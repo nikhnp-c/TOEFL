@@ -126,11 +126,7 @@ audio {
       background-size: 400% 400%;
     }
   }
-  
-.audio-track{
-    display: grid;
-    align-content: center;
-}
+
 
 .content{
     text-align: left;
@@ -161,6 +157,25 @@ audio {
 
 iframe{
     border-radius: 25px;
+}
+
+.listening-integrated{
+    display: flex;
+}
+
+.listening-integrated>.audio{
+    width: 50%;
+    border: solid var(--black) 2px;
+    padding: 25px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+.listening-integrated>.audio>.audio-track{
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 750px) {
