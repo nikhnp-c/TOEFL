@@ -177,6 +177,11 @@ iframe{
     justify-content: center;
 }
 
+iframe{
+    width: 650px;
+    height: 500px;
+}
+
 @media only screen and (max-width: 750px) {
     *{
         scroll-padding: 5vh;
@@ -223,4 +228,10 @@ iframe{
     audio{
         padding: 1vh 2vw;
     }
+
+    iframe{
+        width: 300px;
+        height: 500px;
+    }
+    
 }
