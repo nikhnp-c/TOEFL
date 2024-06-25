@@ -101,6 +101,20 @@ section {
   overflow: auto;
 }
 
+.writing{
+  align-content: center;
+}
+
+summary{
+  background: var(--red);
+  color: var(--white);
+  font-size: 2vh;
+  border: 3px var(--teal) solid;
+  border-radius: 25px;
+  margin: 25px;
+  padding: 25px;
+}
+
 audio {
   background: var(--teal);
   margin: 4vh 4vw;
