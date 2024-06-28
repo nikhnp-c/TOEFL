@@ -14,15 +14,11 @@
         <h1>TOEFL Writing Grade</h1>
       </div>
       <div class="form">
-        <form
-          class="form"
-          action="https://formspree.io/f/mrbzzdwo"
-          method="POST"
-        >
+        <form action="https://formspree.io/f/mrbzzdwo" method="POST">
           <label for="Info" class="writing-note teal">
             Please note that this response will be sent to Nikhil Nepal. After
-            you have sent me your response,<br /> I will have a look at it, and
-            provide a graded answer back to you.
+            you have sent me your response,<br />
+            I will have a look at it, and provide a graded answer back to you.
           </label>
           <label for="name">Your Name:</label>
           <input
@@ -40,13 +36,14 @@
             placeholder="Your Subject"
           />
           <label for="message">Your Response:</label>
-          <input
+          <textarea
             id="message"
+            class="grade textbox"
             class="writing-textbox"
-            type="text"
+            type="textarea"
             name="message"
-            placeholder="Your Message"
-          />
+            placeholder="Enter Your Response"
+          ></textarea>
           <br />
           <input type="submit" value="Submit" class="submitButton" />
         </form>

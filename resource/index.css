@@ -230,7 +230,7 @@ iframe {
 form {
   background: var(--black);
   border: 2px solid var(--teal);
-  height: 70vh;
+  height: 70%;
   border-radius: 25px;
 }
 
@@ -247,7 +247,16 @@ input {
   border-radius: 10px;
 }
 
-input::placeholder{
+textarea {
+  border-radius: 10px;
+}
+
+.grade {
+  width: 95%;
+}
+
+input::placeholder,
+textarea::placeholder {
   color: var(--teal);
   font-size: 2vh;
   padding: 20px;
@@ -271,7 +280,7 @@ input::placeholder{
   padding: 25px;
 }
 
-.writing-textbox {
+.textbox {
   height: 15vh;
 }
 
