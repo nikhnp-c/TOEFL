@@ -97,15 +97,15 @@ section {
   max-height: 80vh;
   display: grid;
   align-items: center;
-
   overflow: auto;
 }
 
-.writing{
+.writing {
   align-content: center;
+  max-width: 35vw;
 }
 
-summary{
+summary {
   background: var(--red);
   color: var(--white);
   font-size: 2vh;
@@ -115,7 +115,7 @@ summary{
   padding: 25px;
 }
 
-details[open]{
+details[open] {
   border-bottom: 2px solid var(--black);
   border-radius: 25px;
 }
@@ -162,7 +162,7 @@ audio:hover {
   display: grid;
 }
 
-.h3{
+.h3 {
   font-size: 1.5vh;
 }
 
@@ -219,11 +219,64 @@ iframe {
   display: grid;
   align-items: center;
   justify-content: center;
+  max-width: 45vw;
 }
 
 iframe {
   width: 650px;
   height: 500px;
+}
+
+form {
+  background: var(--black);
+  border: 2px solid var(--teal);
+  height: 70vh;
+  border-radius: 25px;
+}
+
+label {
+  color: var(--white);
+  font-size: 2vh;
+  padding: 20px;
+  display: block;
+}
+
+input {
+  width: 400px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+input::placeholder{
+  color: var(--teal);
+  font-size: 2vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.submitButton {
+  width: 200px;
+  height: 45px;
+  margin: 25px;
+  background: var(--red);
+  transition: all 1s ease;
+}
+
+.submitButton:hover {
+  background: var(--teal);
+}
+
+.writing-note {
+  width: 75vw;
+  padding: 25px;
+}
+
+.writing-textbox {
+  height: 15vh;
+}
+
+.writing-textbox > input {
+  height: 15vh;
 }
 
 @media only screen and (max-width: 750px) {
