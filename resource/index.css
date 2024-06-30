@@ -67,7 +67,8 @@ section {
   color: var(--white);
 }
 
-.links {
+.links,
+.linksmall {
   text-align: left;
   display: flex;
   flex-wrap: wrap;
@@ -86,8 +87,22 @@ section {
   text-align: center;
 }
 
+.linksmall > p {
+  font-size: 3vh;
+  margin: 1vh 1vw;
+  height: 10vh;
+  width: 20vw;
+  padding: 1vh 1vw;
+  background: var(--teal);
+  border-radius: 25px;
+  align-content: center;
+  text-align: center;
+}
+
 .links > a,
-.links > p > a {
+.links > p > a,
+.linksmall > p > a,
+.linksmall > a {
   text-decoration: none;
   color: var(--white);
 }
@@ -191,8 +206,12 @@ audio:hover {
   color: var(--red);
 }
 
+.black {
+  color: var(--black);
+}
+
 .spacer {
-  min-height: 1vh;
+  padding: 15px;
 }
 
 .question-list {
@@ -227,7 +246,7 @@ iframe {
   height: 500px;
 }
 
-form {
+.form {
   background: var(--black);
   border: 2px solid var(--teal);
   height: 70%;
@@ -245,6 +264,10 @@ input {
   width: 400px;
   height: 35px;
   border-radius: 10px;
+}
+
+.answerFullTest{
+  width: 250px;
 }
 
 textarea {
@@ -286,6 +309,11 @@ textarea::placeholder {
 
 .writing-textbox > input {
   height: 15vh;
+}
+
+.singleLine {
+  display: flex;
+  justify-content: space-around;
 }
 
 @media only screen and (max-width: 750px) {
